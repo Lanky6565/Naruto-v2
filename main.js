@@ -47,7 +47,7 @@ const { version, isLatest } = await fetchLatestBaileysVersion()
 
 const connectionOptions = {
 version: [2, 2413, 1],
-keepAliveIntervalMs: 30000,
+keepAliveIntervalMs: 50000,
 printQRInTerminal: !usePairingCode,
 logger: pino({ level: "fatal" }),
 auth: state,
