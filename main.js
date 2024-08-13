@@ -51,7 +51,7 @@ keepAliveIntervalMs: 30000,
 printQRInTerminal: !usePairingCode,
 logger: pino({ level: "fatal" }),
 auth: state,
-browser: ["Ubuntu","Chrome (linux)","20.0.04"],
+browser: ["Ubuntu","Chrome (linux)", "firefox", "20.0.04"],
 getMessage: async (key) => {
 if (store) {
 const msg = await store.loadMessage(key.remoteJid, key.id, undefined)
